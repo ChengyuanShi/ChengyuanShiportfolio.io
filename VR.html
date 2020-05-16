@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="mystyle.css" type="text/css">
+  <script src="three.r95.min.js"></script>
+  <script src="vanta.net.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+     data-auto-a11y="true"></script>
+  <style>
+    #interactive {
+      width: 100vw;
+      height:100vh;
+      position: fixed;
+      z-index: -999;
+    }
+  </style>
+
+</head>
+<body>
+<div id="interactive"></div>
+
+<div class="container">
+  <h1>Chengyuan Shi <a href="mailto:sam411291679@gmail.com?Subject=Hello%20There"><img alt="" src="img/mailopen.png" onMouseOver="this.src='img/mail.png'" onMouseOut="this.src='img/mailopen.png'"width="50"></a>
+</h1>
+  <ul>
+    <li><a href="index.html" class="effect">Home</a></li>
+    <li><a href="portfolio.html" class="effect">Portfolio</a></li>
+    <li id="about"><a href="about.html" class="effect">About</a></li>
+  </ul>
+</div>
+<center>
+  <img src="img/Chengyuan_Shi_01.png"> <!-- First Imege can be the inside of your museum! Be Creative -->
+  <img src="img/Chengyuan_Shi_02.png">
+  <img src="img/Chengyuan_Shi_03.png">
+  <img src="img/Chengyuan_Shi_04.png">
+  <img src="img/Chengyuan_Shi_05.png">
+  <img src="img/Chengyuan_Shi_06.png">
+
+  <h2>Virtual Reality Art, Digital Image, 2020</h2>
+        <h3>This gallery contains 3D work and 2D works. In this gallery, my works include directions as the theme. Even for the architectural design of the gallery, I designed it in the shape of a minaret. The lines on the roof all point to the apex. In my first 3D work, a pair of hands tried to touch the light ball in the middle. The light ball represented the goal. The two hands represented the efforts to move towards the goal. On the left side of the wall is a 2D work of mine. It is a work composed of 100 Pattons. It is a state of outward expansion. This work abstractly expresses the state of the emotion. In the middle of the wall is a compass. The compass points in four directions: east, south, west, and north. On the compass, I depict nature. I want to express through this work that art originates from nature. On the far right of the wall is a sketch portrait of a dog. And the direction of this work is forward.</h3>
+</center>
+
+<script>
+  VANTA.NET({
+    el: "#interactive",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    points: 20.00,
+    maxDistance: 35.00,
+    spacing: 20.00,
+    showDots: false
+  })
+  </script>
+</body>
+</html>
