@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="mystyle.css" type="text/css">
+  <script src="three.r95.min.js"></script>
+  <script src="vanta.net.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+     data-auto-a11y="true"></script>
+  <style>
+    #interactive {
+      width: 100vw;
+      height:100vh;
+      position: fixed;
+      z-index: -999;
+    }
+  </style>
+
+</head>
+<body>
+<div id="interactive"></div>
+
+<div class="container">
+  <h1>Chengyuan Shi <a href="mailto:sam411291679@gmail.com?Subject=Hello%20There"><img alt="" src="img/mailopen.png" onMouseOver="this.src='img/mail.png'" onMouseOut="this.src='img/mailopen.png'"width="50"></a>
+</h1>
+  <ul>
+    <li><a href="index.html" class="effect">Home</a></li>
+    <li><a href="portfolio.html" class="effect">Portfolio</a></li>
+    <li id="about"><a href="about.html" class="effect">About</a></li>
+    <li><a href="glitch.html" class="effect" style="width:100px;height:100px;position:fixed; left:10px;top:35px;">Previous</a></li>
+  </ul>
+</div>
+<center>
+  <img src="img/stay home 1.gif"width="800"alt="Composite art">
+  <img src="img/stay home 2.gif"width="800"alt="Composite art">
+  <img src="img/stay home 3.gif"width="800"alt="Composite art">
+        <h2>Composite Art, Digital Image, 2020</h2>
+ <h3>In this series, I decided to present the theme of the work through the use of dynamic posters. I portrayed the virus as visible so that it is more intuitive to feel that the virus is actually hiding around us. I also will depict people's inner struggles of the epidemic in an abstract way. In the posters, I presented the characters like shadows, which do not represent a specific person but can be anyone. The poster has the words "stay home" on it. I used this to remind people to take the epidemic seriously. After all, staying at home is the safest and most effective strategy to fight the epidemic.
+</h3>
+</center>
+
+<script>
+  VANTA.NET({
+    el: "#interactive",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    points: 20.00,
+    maxDistance: 35.00,
+    spacing: 20.00,
+    showDots: false
+  })
+  </script>
+</body>
+</html>
